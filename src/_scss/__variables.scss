@@ -1,0 +1,39 @@
+// Screen Break Points
+
+/*
+    568 x 320	iPhone 5/SE
+    640 x 360	Galaxy S5
+    667 x 375	iPhone 6/7/8
+*/
+$atXSmall: 640px;
+/*
+    731 x 411	Pixel 2
+    736 x 414	iPhone 6/7/8 Plus
+*/
+$atSmall: 731px;
+/*
+    812 x 375	iPhoneX
+    823 x 411	Pixel 2 XL
+*/
+$atMedium: 812px;
+/*
+    1024 x 768	iPad
+    1366 x 1024	iPad Pro
+    2880 x 1800	MacBook Pro
+*/
+$atLarge: 1024px;
+/*
+    3360 x 1890	Samsung 32"
+    4840 x 2160	Samsung 32" MaxRez
+*/
+$atXLarge: 3360px;
+
+// Project KOLOR Vars
+$redtof:#d60000;
+$iridium: #3b3b3b;
+$greentof:#00df38;
+$yellowtof: #ebd300;
+
+
+
+

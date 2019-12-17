@@ -1,0 +1,24 @@
+html, body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: $iridium;
+    height: 100%;
+    margin: 0;    
+  }
+h1,h2,h3,h4,h5 {
+  color:$yellowtof;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+    color: $greentof;
+    text-decoration: none;
+}
+a:hover {
+  color: $yellowtof;
+}
+.hero img {
+  width: 100%;
+}
+.material-icons {
+  color: $yellowtof;
+  padding: 0 3px 0 12px;
+}

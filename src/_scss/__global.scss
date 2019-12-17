@@ -1,0 +1,17 @@
+// Reset browser user agent defaults
+@import "normalize-scss";
+@include normalize();
+// Roboto font to be used for headings
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,500i,700,700i,900&display=swap');
+// Opens Sans font to be used for body
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
+// Cinzel font for Menu
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+// Menu Modal
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+// Google Fonts - https://material.io/resources/icons/?icon=storage&style=baseline
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "__variables.scss";
+@import "_body.scss";
+
+
