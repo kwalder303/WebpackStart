@@ -69,4 +69,7 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
   ],
+  devServer: {
+    openPage: '/dist/index.html',
+  },
 };
