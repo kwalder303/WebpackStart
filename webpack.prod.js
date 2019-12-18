@@ -3,6 +3,7 @@
 */
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -54,13 +55,14 @@ module.exports = {
     filename: 'main.js',
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebPackPlugin({
       template: 'src/index.html',
       filename: './index.html',
     }),
     new HtmlWebPackPlugin({
-      filename: 'page.html',
       template: 'src/page.html',
+      filename: 'page.html',
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
