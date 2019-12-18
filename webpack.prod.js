@@ -13,7 +13,7 @@ module.exports = {
         use: [{ loader: 'html-loader', options: { minimize: false } }],
       },
       {
-        test: /\.(png|jpe?g)/i,
+        test: /\.(png|jpe?g|jpg)/i,
         use: [
           {
             loader: 'url-loader',
