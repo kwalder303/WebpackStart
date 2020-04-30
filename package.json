@@ -39,7 +39,7 @@
   ],
   "dependencies": {
     "imagemin": "^6.1.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "^4.1.5",
     "material-design-icons": "^3.0.1",
