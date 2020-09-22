@@ -62,14 +62,11 @@ module.exports = {
     }),
     new HtmlWebPackPlugin({
       template: 'src/page.html',
-      filename: 'page.html',
+      filename: './page.html',
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',
     }),
   ],
-  devServer: {
-    openPage: '/dist/index.html',
-  },
 };
