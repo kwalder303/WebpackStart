@@ -53,7 +53,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/dist/',
-    filename: 'main.js',
+    filename: './main.js',
   },
   plugins: [
     new HtmlWebPackPlugin({

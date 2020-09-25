@@ -5,7 +5,8 @@ class SandBox {
     this.events();
   }
   events() {
-  console.log('<h1>this is js</h1>');
+  $('.getthis').html('Js WooHoo!');
+
 }
 
 }
